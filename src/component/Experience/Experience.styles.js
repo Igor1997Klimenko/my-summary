@@ -9,7 +9,7 @@ export const ExperienceFrontend = styled.div`
         grid-template-columns: 1fr;
     }
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 768px){
         gap: 1rem;
     }
 `;
@@ -33,7 +33,7 @@ export const ExperienceFrontendBlock = styled.div`
         margin: 0 auto;
     }
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 768px){
         width: 100%;
         padding: 2rem 1rem;
     }

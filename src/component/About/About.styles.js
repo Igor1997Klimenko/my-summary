@@ -29,7 +29,7 @@ export const AboutMe = styled.div`
         margin: 2rem auto 4rem;
     }
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 768px){
         width: 65%; 
         margin: 0 auto 3rem;
     }
@@ -53,7 +53,7 @@ export const AboutCards = styled.div`
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 768px){
         grid-template-columns: 1fr 1fr;
         gar: 1rem;
     }
@@ -97,13 +97,13 @@ export const ContentParagraph = styled.p`
         margin: 1rem 0 1.5rem;
     }
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 768px){
         margin: 1.5rem 0;
     }
 `;
 
 export const AboutContent = styled.div`
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 768px){
         text-align: center;
     }
 `;

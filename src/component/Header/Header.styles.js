@@ -9,7 +9,7 @@ export const HomeProject = styled.header`
         height: 68vh; 
     }
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 768px){
         height: 100vh; 
         padding-top: 4rem;
     }
@@ -48,7 +48,7 @@ export const SocialsIcons = styled.div`
         background: var(--color-primary);
     }
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 768px){
         display: none;
     }
 `;
@@ -77,7 +77,7 @@ export const SrollDOwn = styled.a`
     font-weight: 300;
     font-size: 0.9rem;
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 768px){
         display: none;
     }
 `;

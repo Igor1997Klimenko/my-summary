@@ -10,7 +10,7 @@ export const ServicesContainer = styled.div`
         gap: 2rem;
     }
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 768px){
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
