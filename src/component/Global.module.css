@@ -137,6 +137,6 @@ img{
 }
 
 .LinkActive{
-    background: #1f1f38 !important;
-    color: #ffffff !important;
+        background: var(--color-primary) !important;
+        color: var(--color-bg) !important;
 }

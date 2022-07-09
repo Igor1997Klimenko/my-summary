@@ -1,12 +1,12 @@
 import { BsTelegram, BsInstagram } from "react-icons/bs";
-import { FooterSite, FooterLink, FooterLogo } from "./Footer.styles";
+import { FooterSite, FooterLink, FooterLogo, PermaLinks, FooterSocials, FooterSocialsLink, FooterCopyright } from "./Footer.styles";
 
 const Footer = () => {
   return (
     <FooterSite>
       <FooterLogo href="#">EGATOR</FooterLogo>
 
-      <ul>
+      <PermaLinks>
         <li><FooterLink href="#">Home</FooterLink></li>
         <li><FooterLink href="#about">About</FooterLink></li>
         <li><FooterLink href="#experience">Experience</FooterLink></li>
@@ -14,16 +14,16 @@ const Footer = () => {
         <li><FooterLink href="#portfolio">Portfolio</FooterLink></li>
         <li><FooterLink href="#testimonials">Testimonials</FooterLink></li>
         <li><FooterLink href="#contact">Contact</FooterLink></li>
-      </ul>
+      </PermaLinks>
 
-      <div>
-        <FooterLink href="https://t.me/jwigor097"><BsTelegram/></FooterLink>
-        <FooterLink href="https://instagram.com/jwigor97?igshid=YmMyMTA2M2Y="><BsInstagram/></FooterLink>
-      </div>
+      <FooterSocials>
+        <FooterSocialsLink href="https://t.me/jwigor097"><BsTelegram/></FooterSocialsLink>
+        <FooterSocialsLink href="https://instagram.com/jwigor97?igshid=YmMyMTA2M2Y="><BsInstagram/></FooterSocialsLink>
+      </FooterSocials>
 
-      <div>
+      <FooterCopyright>
         <small>&copy; EGATOR Tutorials. All rights reserved.</small>
-      </div>
+      </FooterCopyright>
     </FooterSite>
   )
 }

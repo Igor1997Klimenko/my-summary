@@ -10,6 +10,7 @@ export const TestimonialsContainer = styled.div`
 
     @media screen and (max-width: 768px){
         width: var(--container--width-ms);
+        padding-bottom: 0 !important;
     }
 `;
 
